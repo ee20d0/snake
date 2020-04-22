@@ -1,0 +1,16 @@
+#define	ELFMAG		"\177ELF"
+#define ELFCLASS32	1
+#define ELFCLASS64	2
+#define ELFDATA2LSB	1
+#define ELFDATA2MSB	2
+#define EI_VERSION	6
+#define ELFOSABI_SYSV	0
+#define ET_EXEC		2
+#define EV_CURRENT	1
+
+#define SIZEOF_EHDR_32	52
+#define SIZEOF_EHDR_64
+#define SIZEOF_PHDR_32	32
+#define SIZEOF_PHDR_64
+
+#define DUMMY	0x00EE20D0
